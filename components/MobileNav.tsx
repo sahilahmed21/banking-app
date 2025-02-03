@@ -1,4 +1,6 @@
 'use client'
+import Footer from "./Footer"
+
 import {
     Sheet,
     SheetClose,
@@ -66,7 +68,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                                 USER
                             </nav>
                         </SheetClose>
-                        FOOTER
+                        <Footer user={user} type="mobile" />
                     </div>
                 </SheetContent>
             </Sheet>
